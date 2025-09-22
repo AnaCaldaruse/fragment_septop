@@ -19,6 +19,9 @@ mamba install numpy=1.23 --yes
 mamba install openeye-toolkits=2021.1
 mamba install -c conda-forge openff-toolkit=0.10.06 --yes
 mamba install parmed=4.1 --yes
+```bash
 
-# How to install pymbar and alchemlyb
+How to install pymbar and alchemlyb
+```bash
 mamba install -c conda-forge pymbar alchemlyb
+```bash
