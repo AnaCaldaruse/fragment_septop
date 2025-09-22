@@ -3,26 +3,22 @@ Scripts and input files for calculating binding free energies in fragment-based 
 
 It is expected that you have the folllowing installed in order to use the scripts here.
 
-<header>Installation<header>
+## Installation
+
 How to install septop:
-<code>
+```bash
 git clone https://github.com/MobleyLab/SeparatedTopologies.git
 #cd into directory
 mamba env create -f environment.yml
 mamba activate septop
-
 
 #if above does not work:
 mamba create -n septop python=3.9
 mamba activate septop
 mamba install numpy=1.23 --yes
 mamba install openeye-toolkits=2021.1
-mambda install -c conda-forge openff-toolkit-0.10.06 --yes
+mamba install -c conda-forge openff-toolkit=0.10.06 --yes
 mamba install parmed=4.1 --yes
 
-<code>
-
-How to install pymbar and alchemlyb:
-<code>
+# How to install pymbar and alchemlyb
 mamba install -c conda-forge pymbar alchemlyb
-<code>
