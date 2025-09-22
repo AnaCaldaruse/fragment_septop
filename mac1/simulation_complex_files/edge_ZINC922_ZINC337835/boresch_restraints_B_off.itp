@@ -1,0 +1,16 @@
+[ intermolecular_interactions ] 
+[ bonds ] 
+; ai     aj    type   bA      kA     bB      kB
+ 373   2572   6   1.369   8368.0   1.369   0.0
+
+[ angles ]
+; ai     aj    ak     type    thA      fcA        thB      fcB
+ 747   373   2572   1   48.23   1254.35   48.23   0.00
+ 373   2572   2569   1   133.51   83.68   133.51   0.00
+
+[ dihedrals ]
+; ai     aj    ak    al    type     thA      fcA       thB      fcB
+ 2069   747   373   2572   2   -14.39   83.68   -14.39   0.00
+ 747   373   2572   2569   2   40.84   83.68   40.84   0.00
+ 373   2572   2569   2574   2   -107.76   83.68   -107.76   0.00
+
