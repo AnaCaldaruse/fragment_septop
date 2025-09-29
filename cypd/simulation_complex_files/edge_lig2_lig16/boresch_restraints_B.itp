@@ -1,0 +1,17 @@
+[ intermolecular_interactions ] 
+[ bonds ] 
+; ai     aj    type   bA      kA     bB      kB
+ 571   2546   6   1.845   8368.0   1.845   8368.0
+
+[ angles ]
+; ai     aj    ak     type    thA      fcA        thB      fcB
+ 485   571   2546   1   64.73   2278.82   64.73   2278.82
+ 571   2546   2540   1   46.07   83.68   46.07   83.68
+
+[ dihedrals ]
+; ai     aj    ak    al    type     thA      fcA       thB      fcB
+ 2075   485   571   2546   2   -62.52   83.68   -62.52   83.68
+ 485   571   2546   2540   2   1.23   83.68   1.23   83.68
+ 571   2546   2540   2543   2   -67.87   83.68   -67.87   83.68
+
+; dG_off_analytical: -7.749 kcal/mol
