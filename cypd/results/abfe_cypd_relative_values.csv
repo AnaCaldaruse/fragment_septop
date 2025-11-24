@@ -1,0 +1,17 @@
+labelA,labelB,DDG (kcal/mol),uncertainty (kcal/mol),source,computational
+lig14,lig3,8.21,0.48,,True
+lig3,lig4,0.57,0.84,,True
+lig16,lig14,-2.38,0.64,,True
+lig2,lig14,-4.74,0.75,,True
+lig2,lig16,-2.36,0.78,,True
+lig2,lig3,3.47,0.65,,True
+lig2,lig39,-4.44,0.77,,True
+lig2,lig4,4.04,1.01,,True
+lig2,lig40,-3.6,0.8,,True
+lig2,lig7,3.33,0.63,,True
+lig2,lig8,0.94,0.85,,True
+lig39,lig40,0.84,0.7,,True
+lig4,lig39,-8.48,0.94,,True
+lig40,lig8,4.54,0.79,,True
+lig7,lig16,-5.69,0.51,,True
+lig8,lig7,2.39,0.61,,True

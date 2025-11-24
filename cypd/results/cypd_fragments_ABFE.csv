@@ -1,0 +1,30 @@
+# Experimental block
+# Ligand, expt_DDG, expt_dDDG
+lig2,-9.06,0
+lig3,-2.93,0
+lig4,-2.9,0
+lig7,-2.73,0
+lig8,-4.04,0
+lig14,-11.22,0
+lig16,-8.42,0
+lig39,-8.43,0
+lig40,-8.08,0
+
+# Calculated block from ABFE calculations
+# Ligand1,Ligand2, calc_DDG, calc_dDDG(MBAR), calc_dDDG(additional)
+lig14,lig3,8.21,0.48,0
+lig16,lig14,-2.38,0.64,0
+lig2,lig14,-4.74,0.75,0
+lig2,lig16,-2.36,0.78,0
+lig2,lig3,3.47,0.65,0
+lig2,lig39,-4.44,0.77,0
+lig2,lig4,4.04,1.01,0
+lig2,lig40,-3.6,0.8,0
+lig2,lig7,3.33,0.63,0
+lig2,lig8,0.94,0.85,0
+lig39,lig40,0.84,0.7,0
+lig3,lig4,0.57,0.84,0
+lig40,lig8,4.54,0.79,0
+lig4,lig39,-8.48,0.94,0
+lig7,lig16,-5.69,0.51,0
+lig8,lig7,2.39,0.61,0
