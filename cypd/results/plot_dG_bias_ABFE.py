@@ -1,15 +1,17 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from matplotlib import rcParams
 from scipy.stats import kendalltau
 rng = np.random.default_rng(1234)
 
-# Data (taken from cypd_experimental.csv file)
-ligands = ["Lig2", "Lig3", "Lig4", "Lig7", "Lig8", "Lig14", "Lig16", "Lig39", "Lig40"]
-dG_exp  = np.array([-9.06, -2.93, -2.90, -2.73, -4.04, -11.22, -8.42, -8.43, -8.08])
-dG_calc = np.array([-8.18, -4.71, -4.14, -4.85, -7.24, -12.92, -10.54, -12.62, -11.78])
-dG_err  = np.array([ 0.61, 0.22, 0.81, 0.17, 0.59, 0.43, 0.48, 0.47, 0.52])
+# Data (load data in from abfe_cypd_absolute_values.csv)
+df = pd.read_csv("abfe_cypd_absolute_values.csv")
+ligands = df["ligand"].tolist()
+dG_exp  = df["dG_exp"].values
+dG_calc = df["dG_calc"].values
+dG_err  = df["dG_err"].values
 
 # Bias correction (centering to x=y)
 errors = dG_calc - dG_exp
