@@ -10,7 +10,7 @@ lig16,-8.42,0
 lig39,-8.43,0
 lig40,-8.08,0
 
-# Calculated block from ABFE calculations
+# Estimated block from ABFE calculations 
 # Ligand1,Ligand2, calc_DDG, calc_dDDG(MBAR), calc_dDDG(additional)
 lig14,lig3,8.21,0.48,0
 lig16,lig14,-2.38,0.64,0

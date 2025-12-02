@@ -1,13 +1,13 @@
 label,DG (kcal/mol),uncertainty (kcal/mol),source,computational
-Z9604,-4.91,0.00,,False
-Z8539_2006,-6.55,0.00,,False
-Z8539_2005,-6.29,0.00,,False
-Z8539_2004,-7.02,0.00,,False
-Z8539_2001,-7.19,0.00,,False
-Z8539_0072,-8.73,0.00,,False
-Z8539,-8.19,0.00,,False
-Z8515,-6.80,0.00,,False
-Z8507,-5.24,0.00,,False
+Z9604,-4.91,0.00,exp,False
+Z8539_2006,-6.55,0.00,exp,False
+Z8539_2005,-6.29,0.00,exp,False
+Z8539_2004,-7.02,0.00,exp,False
+Z8539_2001,-7.19,0.00,exp,False
+Z8539_0072,-8.73,0.00,exp,False
+Z8539,-8.19,0.00,exp,False
+Z8515,-6.80,0.00,exp,False
+Z8507,-5.24,0.00,exp,False
 Z8507,1.65,0.27,MLE,True
 Z8539,-2.48,0.21,MLE,True
 Z8539_0072,-2.87,0.19,MLE,True
